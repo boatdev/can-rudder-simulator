@@ -114,8 +114,7 @@ Edit `src/ESP32S3_NMEA2000_device_simulator.ino` to adjust:
 ├── LICENSE                     # MIT License
 ├── README.md                   # This file
 ├── images/
-│   ├── photo.jpg               # Device photo
-│   └── demo.mp4                # Demo video
+│   └── photo.jpg               # Device photo
 ├── platformio.ini              # PlatformIO configuration
 ├── .gitignore                  # Files ignored by git
 └── src/
