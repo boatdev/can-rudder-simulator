@@ -34,7 +34,7 @@ Useful for testing NMEA2000-compatible instruments such as chartplotters, autopi
 
 ### Demo
 
-[![Watch the demo](images/demo_thumbnail.jpg)](https://www.youtube.com/shorts/nCSdF_QO_ZA)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/nCSdF_QO_ZA" frameborder="0" allowfullscreen></iframe>
 
 ## Technical Details
 
