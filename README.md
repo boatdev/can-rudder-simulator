@@ -4,34 +4,6 @@ An NMEA2000 steering control simulator for **ESP32-S3 DevKitC-1** that reads rud
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Media
-
-### Photo
-Add a photo of the hardware setup to the `images/` folder (create it if it doesn't exist), then reference it:
-
-```markdown
-![Hardware Setup](images/photo.jpg)
-```
-
-Example:
-
-![Hardware Setup](images/photo.jpg)
-
-### Video
-GitHub README supports the HTML `<video>` tag. Put your video file in the `images/` folder and add:
-
-```markdown
-<video src="images/demo.mp4" controls width="640"></video>
-```
-
-Or link to an external video (YouTube, etc.):
-
-```markdown
-[![Watch the demo](images/thumbnail.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-```
-
-> **Note:** GitHub has a file size limit of **10 MB** for video files. For larger videos, upload to YouTube/Vimeo and link to them.
-
 ## Overview
 
 This firmware emulates a steering control device (Steering Control, Class 75, Function 160) on an NMEA2000 network. It reads an analog voltage from a potentiometer (ADC, 12-bit), converts it to a rudder angle, and transmits the value every 200 ms as PGN 127245.
