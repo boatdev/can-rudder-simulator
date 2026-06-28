@@ -10,6 +10,8 @@ This firmware emulates a steering control device (Steering Control, Class 75, Fu
 
 Useful for testing NMEA2000-compatible instruments such as chartplotters, autopilots, and MFDs without a real rudder sensor.
 
+![Device Photo](images/photo.jpg)
+
 ## Hardware Pinout
 
 | Component       | GPIO  | Purpose                               |
@@ -29,6 +31,10 @@ Useful for testing NMEA2000-compatible instruments such as chartplotters, autopi
    - `4095` → `+40°` (full starboard)
 3. **Transmit**: Every **200 ms** a PGN 127245 (Rudder) message is sent with the current angle in radians.
 4. **Diagnostics** (optional): Serial output at 115200 baud shows the raw ADC value, calculated angle, and the raw CAN frame in hex.
+
+### Demo
+
+<video src="images/demo.mp4" controls width="640"></video>
 
 ## Technical Details
 
@@ -107,6 +113,9 @@ Edit `src/ESP32S3_NMEA2000_device_simulator.ino` to adjust:
 .
 ├── LICENSE                     # MIT License
 ├── README.md                   # This file
+├── images/
+│   ├── photo.jpg               # Device photo
+│   └── demo.mp4                # Demo video
 ├── platformio.ini              # PlatformIO configuration
 ├── .gitignore                  # Files ignored by git
 └── src/
