@@ -34,7 +34,7 @@ Useful for testing NMEA2000-compatible instruments such as chartplotters, autopi
 
 ### Demo
 
-[![Watch the demo](images/demo_thumbnail.jpg)](https://github.com/boatdev/can-rudder-simulator/raw/main/images/demo.mp4)
+[![Watch the demo](images/demo_thumbnail.jpg)](https://www.youtube.com/shorts/nCSdF_QO_ZA)
 
 ## Technical Details
 
