@@ -34,11 +34,7 @@ Useful for testing NMEA2000-compatible instruments such as chartplotters, autopi
 
 ### Demo
 
-Видео работы с плоттером:
-
-<video src="images/demo.mp4" controls width="640"></video>
-
-[Скачать видео](images/demo.mp4)
+[![Watch the demo](images/demo_thumbnail.jpg)](images/demo.mp4)
 
 ## Technical Details
 
